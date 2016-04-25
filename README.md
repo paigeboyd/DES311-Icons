@@ -26,3 +26,4 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 
 - [x] Figure out Day/Night JavaScript code
 - [x] Icons header animation
+
