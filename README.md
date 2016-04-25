@@ -17,3 +17,12 @@ The landmarks featured are:
 
 
 Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/tagged/des311">paigeboyddesign.tumblr.com/tagged/des311</a>
+
+<h2>To Do - </h2>
+- [x] Upload Icons
+- [ ] Single Page Website
+- [x] Wireframes
+- [ ] Design Comp
+
+- [x] Figure out Day/Night JavaScript code
+- [x] Icons header animation
