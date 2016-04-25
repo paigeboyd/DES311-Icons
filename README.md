@@ -22,8 +22,7 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 - [x] Upload Icons
 - [ ] Single Page Website
 - [x] Wireframes
-- [ ] Design Comp
-
+- [ ] Design Comp (photoshop/illustrator)
 - [x] Figure out Day/Night JavaScript code
 - [x] Icons header animation
 
