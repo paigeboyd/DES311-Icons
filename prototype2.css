@@ -1,0 +1,26 @@
+/* Resetting things*/
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+
+header {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.animatedhero {
+    display: block;
+    margin: 0 auto;
+    max-height: 600px; /* means it won't get any bigger than 600px */
+    max-width: 100%; /* adding this will make it scale for different browser sizes */
+}
