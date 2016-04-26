@@ -1,0 +1,24 @@
+/* Resetting things*/
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+
+header {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.hero {
+    max-width: 70%;
+    float: right;
+}
