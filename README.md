@@ -26,3 +26,10 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 - [x] Figure out Day/Night JavaScript code
 - [x] Icons header animation
 
+
+
+<h2>Prototypes - </h2>
+- Prototype1: Static hero image
+- Prototype2: Animated hero image & responsive
+- Prototype3: P2 & Branding 
+
