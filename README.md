@@ -29,7 +29,8 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 
 
 <h2>Prototypes - </h2>
-- Prototype1: Static hero image
-- Prototype2: Animated hero image & responsive
-- Prototype3: P2 & Branding 
+- [x] Prototype1: Static hero image
+- [x] Prototype2: Animated hero image & responsive
+- [x] Prototype3: P2 & Branding - absolute positioning
+- [ ] Prototype4: P3 & responsiveness & intro section
 
