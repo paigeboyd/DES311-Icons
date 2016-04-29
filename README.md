@@ -37,7 +37,7 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 - [x] Landmark Information (bulk up!!)
 
 
-* These prototypes are the old design - website has been changed since *
+These prototypes are the old design - website has been changed since!
 <h2>Prototypes - </h2>
 - [x] Prototype1: Static hero image
 - [x] Prototype2: Animated hero image & responsive
