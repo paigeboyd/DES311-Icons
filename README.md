@@ -1,6 +1,8 @@
 # DES311-Icons
 Wanderlust Icon Set created for DES311 Creative Entrepreneurship module.
 
+Live Link: (released 6th May)
+
 We were tasked with creating an icon set and a single-page website to promote them and allow users to download the set!
 
 I chose to create icons themed around European Landmarks. I created two sets; Day and Night of 8 icons in each.
