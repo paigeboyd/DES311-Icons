@@ -1,10 +1,16 @@
 # DES311-Icons
 Wanderlust Icon Set created for DES311 Creative Entrepreneurship module.
 
-Live Link: (released 6th May)
+Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/tagged/des311">paigeboyddesign.tumblr.com/tagged/des311</a>
 
-We were tasked with creating an icon set and a single-page website to promote them and allow users to download the set!
+<b>Live Link:</b> (released 6th May)
 
+
+<h2> Design Brief </h2>
+We were tasked with creating an icon set and a single-page website to promote them and allow users to download the set. Complete freedom to decide on the subject of the icons and how the website is styled - provided it is fit for purpose and the icons look like they are a set.
+
+
+<h2>Landmarks</h2>
 I chose to create icons themed around European Landmarks. I created two sets; Day and Night of 8 icons in each.
 The landmarks featured are:
 - Big Ben: London
@@ -16,9 +22,6 @@ The landmarks featured are:
 - Notre Dame: Paris
 - Hallgrímskirkja Cathedral: Reykjavik
  
-
-
-Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/tagged/des311">paigeboyddesign.tumblr.com/tagged/des311</a>
 
 <h2>To Do - </h2>
 - [ ] Single Page Website
