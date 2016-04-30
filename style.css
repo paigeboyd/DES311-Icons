@@ -1,0 +1,116 @@
+/* Resetting things*/
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3F3643;
+    color: #F2E6C6; /*matches the wanderlust brand color */
+}
+
+/* ------ Header Section ------ */
+
+.heroimg {
+    
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.intro {
+    position: absolute;
+    text-align: center;
+    font-size: 2.4vw; /* responsive text - means 2.4% of viewport width*/
+    margin-top: 37%; /* this controls the position of the text - responsive! */
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+
+/* ------ Mid Section - Icons ------ */
+
+section {
+    background-color: #3F3643;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.landmarkinfo {
+    padding-top: 80px; /* adds space between the text and top of section */
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.description { /*description of landmark */
+    margin-bottom: 100px;
+}
+
+.lefttext {
+    float: left;
+    text-align: left;
+}
+
+.righttext {
+    float: right;
+    text-align: right;
+}
+
+
+
+/* ------ Download Section ------ */
+
+.downloadimg { 
+    max-width: 100%;
+    width: 100%;
+}
+
+#downloadsection {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+/*  Download Buttons  */
+
+
+.downloadbuttons {
+    display: inline-block;
+    text-align: center;
+}
+
+a.button{
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+    color: #F2E6C6;
+    width: 200px;
+    padding: 15px 10px;
+    margin: 15px 10px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,0.3);
+    border: 2px solid #F2E6C6;
+    transition: all 0.3s ease 0s;
+}
+
+small {
+    font-size: 70%;
+}
+
+a.button:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: #F2E6C6;
+    border: 2px solid #F2E6C6;
+
+}
+
+.textshadow: 2px 4px 3px rgba(0,0,0,0.3);
