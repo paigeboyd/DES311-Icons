@@ -42,4 +42,5 @@ The landmarks featured are:
 - [x] Landmark Information (bulk up!!)
 - [x] PNG Icons
 - [ ] SVG Icons
+- [ ] Optimise all images
 
