@@ -35,6 +35,6 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 - [x] Icons Section Layout
 - [x] Download Buttons (+ hover transitions)
 - [x] Landmark Information (bulk up!!)
-- [ ] PNG Icons
+- [x] PNG Icons
 - [ ] SVG Icons
 
