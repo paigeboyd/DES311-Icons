@@ -43,11 +43,13 @@ section {
 }
 
 .landmarkinfo {
-    padding-top: 80px; /* adds space between the text and top of section */
+    margin-top: 80px; /* adds space between the text and top of section */
 }
+
 
 h2 {
     font-size: 26px;
+    padding-bottom: 5px;
 }
 
 .description { /*description of landmark */
@@ -64,6 +66,20 @@ h2 {
     text-align: right;
 }
 
+/* ------ ICONS ------ */
+
+#iconleft {
+    display: inline-block;
+    float: left;
+    margin-right: 25px; /* Space between the icon and text */
+}
+
+
+#iconright {
+    display: inline-block;
+    float: right;
+    margin-left: 25px; /* Space between the icon and text */
+}
 
 
 /* ------ Download Section ------ */
@@ -110,7 +126,7 @@ a.button:hover {
     background-color: rgba(255,255,255,0.5);
     color: #F2E6C6;
     border: 2px solid #F2E6C6;
-
 }
 
 .textshadow: 2px 4px 3px rgba(0,0,0,0.3);
+
