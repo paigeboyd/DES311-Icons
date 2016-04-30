@@ -6,7 +6,7 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 <b>Live Link:</b> (released 6th May)
 
 
-<h2> Design Brief </h2>
+<h2>Design Brief </h2>
 We were tasked with creating an icon set and a single-page website to promote them and allow users to download the set. Complete freedom to decide on the subject of the icons and how the website is styled - provided it is fit for purpose and the icons look like they are a set.
 
 
