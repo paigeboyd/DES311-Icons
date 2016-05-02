@@ -1,21 +1,19 @@
-/* Resetting things*/
-* {
-    margin: 0 auto;
-    padding: 0;
-}
-
-
-
 body {
+    margin: 0 auto; /* this just resets things so everything is at edge of browser */
     font-family: 'Roboto', sans-serif;
     background-color: #3F3643;
     color: #F2E6C6; /*matches the wanderlust brand color */
 }
 
+
+
+
+
+
+
 /* ------ Header Section ------ */
 
 .heroimg {
-    
     max-width: 100%;
     width: 100%;
 }
@@ -29,6 +27,9 @@ body {
     left: 50%;  
     transform: translate(-50%, -50%);
 }
+
+
+
 
 
 /* ------ Mid Section - Icons ------ */
@@ -66,6 +67,9 @@ h2 {
     text-align: right;
 }
 
+
+
+
 /* ------ ICONS ------ */
 
 #iconleft {
@@ -82,12 +86,25 @@ h2 {
 }
 
 
-/* ------ Download Section ------ */
 
-.downloadimg { 
-    max-width: 100%;
+
+
+/* ------ Ways to use Section ------ */
+
+#waystouse {
+    padding-top: 100px;
+}
+
+.usingimg { 
+    max-width: 40%;
     width: 100%;
 }
+
+
+
+
+
+/* ------ Download Section ------ */
 
 #downloadsection {
     margin: 0 auto;
@@ -129,4 +146,14 @@ a.button:hover {
 }
 
 .textshadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+
+hr.styledborder { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
 
