@@ -18,6 +18,24 @@
     
     <!-- JAVASCRIPT -->
     <script src="jslib.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    
+    
+    <!-- SMOOTH SCROLLING jQUERY from http://sharethingz.com/js-jquery/jquery-smooth-scrolling-to-an-element-on-page/ -->
+    <script>
+        
+        jQuery(document).ready(function(){
+            jQuery('a[href^="#"]').click(function(e) {
+                jQuery('html,body').animate({ scrollTop: jQuery(this.hash).offset().top - 70 }, 1000);
+
+        return false;
+
+        e.preventDefault();
+
+    });
+
+});
+    </script>
     
 </head>
 
@@ -29,7 +47,12 @@
             <br /><br />
             How many have you seen?</p>
         
-        <!--<svg class="arrows">
+        <a href="#landmarkinfo">
+            <img class="downarrows" src="images/downarrows.png" alt="down arrows">
+        </a>
+       
+        
+        <!-- <svg class="arrows">
             <path d="M0 20 L20 42 L40 20"></path>
             <path d="M0 40 L20 62 L40 40"></path>
         </svg> -->
@@ -39,9 +62,103 @@
         
     </header>
     
-    
-    
-        <section class="definition">
+           
+        
+        
+        
+        <section id="landmarkinfo">
+        
+            <div id="wrapper">
+            
+        <div class="iconsgrid">
+              <a class="iconsa" href="#landmarkinfo">
+                <figure>
+                  <img class="icon" src="dayicons/barcelonaday.png" style="height:150px;">
+                  <figcaption>
+                    La Sagrada Família, <br />
+                      Barcelona
+                  </figcaption>
+                </figure>
+            </a>
+            
+            <a class="iconsa" href="#landmarkinfo">  
+                <figure>
+                  <img class="icon" src="dayicons/berlinday.png" style="height:150px;">
+                  <figcaption>
+                    Konzerthaus, <br />
+                      Berlin
+                  </figcaption>
+                </figure>
+            </a>
+              
+            <a class="iconsa" href="#landmarkinfo"> 
+                <figure>
+                  <img class="icon" src="dayicons/budapestday.png" style="height:150px;">
+                  <figcaption>
+                    Halászbástya, <br />
+                      Budapest
+                  </figcaption>
+                </figure>
+            </a>
+              
+            <a class="iconsa" href="#landmarkinfo"> 
+                <figure>
+                  <img class="icon" src="dayicons/pragueday.png" style="height:150px;">
+                  <figcaption>
+                    Prague Castle, <br />
+                      Prague
+                  </figcaption>
+                </figure>
+            </a>
+            
+            <a class="iconsa" href="#landmarkinfo">   
+                <figure>
+                  <img class="icon" src="dayicons/icelandday.png" style="height:150px;">
+                  <figcaption>
+                    Hallgrímskirkja, <br />
+                      Reykjavík
+                  </figcaption>
+                </figure>
+            </a>
+              
+            <a class="iconsa" href="#landmarkinfo"> 
+                <figure>
+                  <img class="icon" src="dayicons/londonday.png" style="height:150px;">
+                  <figcaption>
+                    Big Ben Clock Tower, <br />
+                      London
+                  </figcaption>
+                </figure>
+            </a>
+              
+            <a class="iconsa" href="#landmarkinfo"> 
+                <figure>
+                  <img class="icon" src="dayicons/parisday.png" style="height:150px;">
+                   <figcaption>
+                    Notre Dame de Paris, <br />
+                       Paris
+                  </figcaption>
+                </figure>
+            </a>
+            
+            <a class="iconsa" href="#landmarkinfo"> 
+                <figure>
+                  <img class="icon" src="dayicons/romeday.png" style="height:150px;">
+                  <figcaption>
+                    Fontana di Trevi, <br />
+                      Rome
+                  </figcaption>
+                </figure>
+            </a>
+            
+            </div> <!-- closes .iconsgrid -->
+        
+
+            
+            </div> <!-- closes #wrapper div -->
+    </section>
+
+    <section class="definition">
             
             <div id="wrapper">
         
@@ -51,63 +168,6 @@
         </section>
         
         </div><!-- closes #wrapper div -->
-           
-        
-        
-        
-        <section class="landmarkinfo">
-        
-            <div id="wrapper">
-            
-        <table>    
-           <!-- ROW 1 -->
-            <tr>
-                <td>
-                    <img alt="Sagrada Familia Icon" id="camera" src="dayicons/barcelonaday.png" style="height:150px;"> <br />
-                    <p class="iconname">La Sagrada Família, Barcelona</p>
-                </td>   
-                <td>
-                    <img alt="Konzerthaus Icon" id="luggage" src="dayicons/berlinday.png" style="height:150px;"><br />
-                    <p class="iconname">Konzerthaus, Berlin</p>
-                </td>   
-                <td>
-                    <img alt="Fisherman's Bastion Icon" id="sign" src="dayicons/budapestday.png" style="height:150px;"><br />
-                    <p class="iconname">Halászbástya, Budapest</p>
-                </td> 
-                <td>
-                    <img alt="Prague Castle Icon" id="airballoon" src="dayicons/pragueday.png" style="height:150px;"><br />
-                    <p class="iconname">Prague Castle, Prague</p>
-                </td>
-                
-            </tr>
-            <!-- ROW 2 -->
-            <tr>
-                <td>
-                    <img alt="Hallimgrimskirkja Icon" id="passport" src="dayicons/icelandday.png" style="height:150px;"><br />
-                    <p class="iconname">Hallgrímskirkja, Reykjavík</p>
-                </td>   
-
-                <td>
-                    <img alt="Big Ben Icon" id="globe" src="dayicons/londonday.png" style="height:150px;"><br />
-                    <p class="iconname">Big Ben, London</p>
-                </td>   
-                <td>
-                    <img alt="Notre Dame Icon" id="tent" src="dayicons/parisday.png" style="height:150px;"><br />
-                    <p class="iconname">Notre Dame, Paris</p>
-                </td> 
-                <td>
-                    <img alt="Trevi Fountain Icon" id="camper" src="dayicons/romeday.png" style="height:150px;"><br />
-                    <p class="iconname">Trevi Fountain, Rome</p>
-                </td>
-            </tr>
-            
-        </table>
-        
-
-            <hr class="styledborder">
-            </div> <!-- closes #wrapper div -->
-    </section>
-
         
     <!--
     <section id="downloadsection">
@@ -122,12 +182,15 @@
         
     
         <section id="waystouse">
+            <div id="wrapper">
         
         
         <img class="usingimg" src="images/usingiconsprague.png">
-        
-        
+            
+            </div> <!-- closes wrapper div -->
         </section>
+    
+    
         
 
     
