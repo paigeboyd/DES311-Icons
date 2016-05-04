@@ -30,7 +30,8 @@ The landmarks featured are:
 - [x] Design Comp (photoshop/illustrator)
 - [x] Figure out Day/Night JavaScript code
 - [x] Icons animation
-- [ ] SVG Arrows in header section (working on in CodePen -http://codepen.io/paigeboyd1/pen/jbgVXE)
+- [x] Arrows in Header Section
+- [x] Smooth Scroll to Anchors jQuery
 - [x] Add Images of icons
 - [ ] Background image for download section
 - [ ] Examples of where icons can be used section
