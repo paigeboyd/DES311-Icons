@@ -9,9 +9,13 @@
     <meta name="keywords" content="IMD, Degree, Interactive, Multimedia, Design, Jordanstown, Undergraduate, Paige Boyd, Interactive Multimedia Design, UUJ, uuj imd, imd jordanstown, uuimd, web design lurgan, Lurgan, Website Designer Lurgan" />
 
 	   <title>Wanderlust Icon Set | Paige</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
     <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
     
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="style2.css">
@@ -21,9 +25,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     
     
-    <!-- SMOOTH SCROLLING jQUERY from http://sharethingz.com/js-jquery/jquery-smooth-scrolling-to-an-element-on-page/ -->
-    <script>
-        
+    <!-- SMOOTH SCROLLING jQUERY from http://sharethingz.com/js-jquery/jquery-smooth-scrolling-to-an-element-on-page/ -->        
+    <script>    
         jQuery(document).ready(function(){
             jQuery('a[href^="#"]').click(function(e) {
                 jQuery('html,body').animate({ scrollTop: jQuery(this.hash).offset().top - 70 }, 1000);
@@ -37,9 +40,33 @@
 });
     </script>
     
+    <!-- IMAGE CHANGE ON BUTTON CLICK -->
+    <script>
+    function changeImgNight() {
+        document.getElementById("icon1").src="nighticons/barcelonanight.png";
+        document.getElementById("icon2").src="nighticons/berlinnight.png";
+        document.getElementById("icon3").src="nighticons/budapestnight.png";
+        document.getElementById("icon4").src="nighticons/praguenight.png";
+        document.getElementById("icon5").src="nighticons/icelandnight.png";
+        document.getElementById("icon6").src="nighticons/londonnight.png";
+        document.getElementById("icon7").src="nighticons/parisnight.png";
+        document.getElementById("icon8").src="nighticons/romenight.png"; 
+    }
+        function changeImgDay() {
+        document.getElementById("icon1").src="dayicons/barcelonaday.png";
+        document.getElementById("icon2").src="dayicons/berlinday.png";
+        document.getElementById("icon3").src="dayicons/budapestday.png";
+        document.getElementById("icon4").src="dayicons/pragueday.png";
+        document.getElementById("icon5").src="dayicons/icelandday.png";
+        document.getElementById("icon6").src="dayicons/londonday.png";
+        document.getElementById("icon7").src="dayicons/parisday.png";
+        document.getElementById("icon8").src="dayicons/romeday.png"; 
+    }
+    </script>
+    
 </head>
 
-<body>
+<body onload="showTime()">
     <header>
         
         <p class="intro">A collection of illustrated icons <br />
@@ -69,11 +96,24 @@
         <section id="landmarkinfo">
         
             <div id="wrapper">
+                
+                  <div class="daytonight" onclick="changeImgNight();">
+                      <div class="toggle">
+                        <input class="toggle-input" type="checkbox" />
+                        <div class="toggle-bg"></div>
+                        <div class="toggle-switch">
+                          <div class="toggle-switch-figure"></div>
+                          <div class="toggle-switch-figureAlt"></div>
+                        </div>  
+                      </div>
+                </div>
+                
+            
             
         <div class="iconsgrid">
               <a class="iconsa" href="#landmarkinfo">
                 <figure>
-                  <img class="icon" src="dayicons/barcelonaday.png" style="height:150px;">
+                  <img class="icon" id="icon1" src="dayicons/barcelonaday.png" style="height:150px;">
                   <figcaption>
                     La Sagrada Família, <br />
                       Barcelona
@@ -83,7 +123,7 @@
             
             <a class="iconsa" href="#landmarkinfo">  
                 <figure>
-                  <img class="icon" src="dayicons/berlinday.png" style="height:150px;">
+                  <img class="icon" id="icon2" src="dayicons/berlinday.png" style="height:150px;">
                   <figcaption>
                     Konzerthaus, <br />
                       Berlin
@@ -93,7 +133,7 @@
               
             <a class="iconsa" href="#landmarkinfo"> 
                 <figure>
-                  <img class="icon" src="dayicons/budapestday.png" style="height:150px;">
+                  <img class="icon" id="icon3" src="dayicons/budapestday.png" style="height:150px;">
                   <figcaption>
                     Halászbástya, <br />
                       Budapest
@@ -103,7 +143,7 @@
               
             <a class="iconsa" href="#landmarkinfo"> 
                 <figure>
-                  <img class="icon" src="dayicons/pragueday.png" style="height:150px;">
+                  <img class="icon" id="icon4" src="dayicons/pragueday.png" style="height:150px;">
                   <figcaption>
                     Prague Castle, <br />
                       Prague
@@ -113,7 +153,7 @@
             
             <a class="iconsa" href="#landmarkinfo">   
                 <figure>
-                  <img class="icon" src="dayicons/icelandday.png" style="height:150px;">
+                  <img class="icon" id="icon5" src="dayicons/icelandday.png" style="height:150px;">
                   <figcaption>
                     Hallgrímskirkja, <br />
                       Reykjavík
@@ -123,7 +163,7 @@
               
             <a class="iconsa" href="#landmarkinfo"> 
                 <figure>
-                  <img class="icon" src="dayicons/londonday.png" style="height:150px;">
+                  <img class="icon" id="icon6" src="dayicons/londonday.png" style="height:150px;">
                   <figcaption>
                     Big Ben Clock Tower, <br />
                       London
@@ -133,7 +173,7 @@
               
             <a class="iconsa" href="#landmarkinfo"> 
                 <figure>
-                  <img class="icon" src="dayicons/parisday.png" style="height:150px;">
+                  <img class="icon" id="icon7" src="dayicons/parisday.png" style="height:150px;">
                    <figcaption>
                     Notre Dame de Paris, <br />
                        Paris
@@ -143,7 +183,7 @@
             
             <a class="iconsa" href="#landmarkinfo"> 
                 <figure>
-                  <img class="icon" src="dayicons/romeday.png" style="height:150px;">
+                  <img class="icon" id="icon8" src="dayicons/romeday.png" style="height:150px;">
                   <figcaption>
                     Fontana di Trevi, <br />
                       Rome
@@ -158,12 +198,23 @@
             </div> <!-- closes #wrapper div -->
     </section>
 
-    <section class="definition">
+    <section class="download">
             
             <div id="wrapper">
         
-            <img class="iconanimation" src="images/headeranimation.gif" style="width:50%;">
-        
+            <img class="iconanimation" src="images/animationlooping.gif">
+                
+                <div class="downloadmessage">
+                <h2> Use the buttons below to download Wanderlust: Icon Set for free!</h2>
+                
+                <div class="downloadbuttons">    
+                
+                    <button type="button"><p>PNG</p></button> 
+                    <button type="button"><p>SVG</p></button>
+                    
+                    </div> <!-- closes .downloadbuttons div -->
+                    
+                </div><!-- closes .downloadmessage div -->
          
         </section>
         
