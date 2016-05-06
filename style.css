@@ -169,24 +169,53 @@ button:hover {
 
 
 
-hr.styledborder { 
-  border: 0; 
-  height: 1px; 
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-}
-
 /* ------ Ways to use Section ------ */
 
 #waystouse {
-    padding-top: 100px;
+    padding-top: 15px;
 }
 
-.usingimg { 
+#imgleft {
+    display: inline-block;
+    float: left;
+    margin-right: 25px; /* Space between the icon and text */
     max-width: 40%;
-    width: 100%;
+    min-width: 350px;
+}
+
+
+#imgright {
+    display: inline-block;
+    float: right;
+    margin-left: 25px; /* Space between the icon and text */
+    max-width: 35%;
+    min-width: 300px;
+}
+
+.usingh2 {
+    margin-top: 70px;
+}
+
+
+
+.lefttext {
+    float: left;
+    text-align: left;
+}
+
+.righttext {
+    float: right;
+    text-align: right;
+}
+
+
+
+
+.usingicons {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 
@@ -381,6 +410,48 @@ FCFCFC - stars
 
 
 
+/* ------ Footer ------ */
+
+
+.hrstyled {
+    margin-top: 50%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.madeby {
+    display: inline;
+    padding-right: 50%;
+    color: #F2E6C6;
+    text-align: left;
+    font-size: 14px;
+}
+
+.madeby a {
+    text-decoration: none;
+    color: #F2E6C6;
+    font-weight: 400;
+}
+
+.madeby a:hover {
+    border-bottom: 1px solid #F2E6C6;
+}
+
+.share {
+    display: inline;
+    color: #F2E6C6;
+    text-align: right;
+    font-size: 14px;
+}
+
+.twitter {
+    width: 30px;
+    margin-bottom: -10px;
+}
+
+
+
 
 
 /* ------ Media Queries ------ */
@@ -408,14 +479,69 @@ FCFCFC - stars
     
     button {
         width: 150px;
-        margin: 5px 5px;
-        
+        margin: 5px 5px; 
     }
+    
     
     .daytonight {
     margin-bottom: -20px;
+    }
+    
+    #imgleft {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        max-width: 80%;
+        min-width: 350px;
+        padding-bottom: 20px;
+    }
+
+
+    #imgright {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        max-width: 75%;
+        min-width: 300px;
+    }
+
+    .usingh2 {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .description { 
+        margin: 0 auto;
+        text-align: center;
+        max-width: 80%;
+        padding-bottom: 50px;
+    }
+
+    .hrstyled {
+        display: none;
+    }
+    
+    .madeby {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        padding: 0;
         
-}
+    }
+    
+    .share {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .twitter {
+        width: 30px;
+        
+    }
 
     
 }
