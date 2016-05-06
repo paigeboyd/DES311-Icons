@@ -3,7 +3,7 @@ Wanderlust Icon Set created for DES311 Creative Entrepreneurship module.
 
 Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/tagged/des311">paigeboyddesign.tumblr.com/tagged/des311</a>
 
-<b>Live Link:</b> (released 6th May)
+<b>Live Link:</b> <a href="http://scm.ulster.ac.uk/~B00664007/myworkspace/year2/des311/iconswebsite/">Wanderlust: Icon Set</a>
 
 
 <h2>Design Brief </h2>
@@ -23,25 +23,4 @@ The landmarks featured are:
 - Hallgrímskirkja Cathedral: Reykjavik
  
 
-<h2>To Do - </h2>
-- [ ] Single Page Website
-- [x] Upload Icons
-- [x] Wireframes
-- [x] Design Comp (photoshop/illustrator)
-- [x] Figure out Day/Night JavaScript code
-- [x] Icons animation
-- [x] Arrows in Header Section
-- [x] Smooth Scroll to Anchors jQuery
-- [x] Add Images of icons
-- [ ] Background image for download section
-- [ ] Examples of where icons can be used section
-- [ ] Icon files to download
-- [x] Hero Image (+ responsiveness)
-- [x] Header Text (absolute positioning + responsive)
-- [x] Icons Section Layout
-- [x] Download Buttons (+ hover transitions)
-- [x] Landmark Information (bulk up!!)
-- [x] PNG Icons
-- [ ] SVG Icons
-- [ ] Optimise all images
 
