@@ -6,8 +6,8 @@ Design Process documented on Tumblr: <a href="http://paigeboyddesign.tumblr.com/
 <b>Live Link:</b> <a href="http://scm.ulster.ac.uk/~B00664007/myworkspace/year2/des311/iconswebsite/">Wanderlust: Icon Set</a>
 
 <b>Prototypes:</b> <br >
-- Icons Grid - Flexbox & Day/Night Image Change with JavaScript: <a href="http://scm.ulster.ac.uk/~B00664007/myworkspace/year2/des311/iconswebsite/grid_prototype/icongrid.html">Grid_prototype</a>
-- Responsive Header & text: 
+- Icons Grid - Flexbox & Day/Night Image Change with JavaScript: <a href="http://scm.ulster.ac.uk/~B00664007/myworkspace/year2/des311/iconswebsite/grid_prototype/icongrid.html"> Grid_prototype</a>
+- Responsive Header & text: <a href="http://scm.ulster.ac.uk/~B00664007/myworkspace/year2/des311/iconswebsite/header_prototype/headerprototype.html"> Header_Prototype</a>
 
 <img src="images/icons.png" style="height:250px;">
 
