@@ -1,0 +1,284 @@
+body {
+    margin: 0 auto; /* this just resets things so everything is at edge of browser */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #3F3643;
+    color: #F2E6C6; /*matches the wanderlust brand color */
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+/* ------ Mid Section - Icons & Flexbox grid layout ------ */
+
+#landmarkinfo {
+    margin: 0 auto;
+}
+
+greeting {
+    text-align: right;
+}
+
+.iconsgrid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6% 2%; /* scalable margins - means there won't be a big gap on a mobile device */
+}
+
+.iconsa {
+    display: inline-block;
+    margin-bottom: 8px;
+    width: calc(50% - 4px);
+    margin-right: 2px; /*keep this in - spacing */
+    text-decoration: none;
+    color: #F2E6C6;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 50em) {
+  .iconsa {
+    width: calc(25% - 6px);
+  } 
+  
+  .iconsa:nth-of-type(2n) {
+    margin-right: 4px;
+  }
+  
+  .iconsa:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+figcaption {
+    margin-top: 15px;
+}
+
+.icon { /*images */
+    border: none;
+    max-width: 100%;
+    margin: 10px auto;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+/* ------ DAY TO NIGHT BUTTON  - From http://codepen.io/jsndks/pen/qEXzOQ ------ */
+/*
+F5EB42 - sun inner
+E4C74D - sun outer
+FFFFFF - cloud inner
+D4D4D2 - cloud outer
+81C0D5 - parent outer
+C0E6F6 - parent inner
+FFFDF2 - moon inner
+DEE1C5 - moon outer
+FCFCFC - stars
+*/
+
+
+.daytonight {
+    padding-top: 20px;
+    text-align: right;
+    margin-bottom: -40px;
+        
+}
+
+.toggle {
+      position: relative;
+      display: inline-block;
+      width: 90px;
+      padding: 2px;
+      border-radius: 40px;
+}
+
+.toggle:before,
+.toggle:after {
+      content: '';
+      display: table;
+}
+
+.toggle:after {
+    clear: both;
+}
+
+.toggle-bg {
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      width: 90%;
+      height: 90%;
+      background-color: #C0E6F6;
+      border-radius: 40px;
+      border: 4px solid #81C0D5;
+      -webkit-transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.toggle-input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 90%;
+      border: 1px solid red;
+      border-radius: 40px;
+      z-index: 2;
+      opacity: 0;
+}
+
+.toggle-switch {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-left: 40px;
+      background-color: #F5EB42;
+      border: 4px solid #E4C74D;
+      border-radius: 50%;
+      -webkit-transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.toggle-switch-figure { /* cloud */
+      position: absolute;
+      bottom: -12px;
+      left: -55px;
+      display: block;
+      width: 80px;
+      height: 30px;
+      border: 8px solid #D4D4D2;
+      border-radius: 20px;
+      background-color: #fff;
+      -webkit-transform: scale(0.4);
+              transform: scale(0.4);
+      -webkit-transition: all 0.12s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.12s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.toggle-switch-figure:after {
+      content: '';
+      display: block;
+      position: relative;
+      top: -65px;
+      right: -42px;
+      width: 15px;
+      height: 15px;
+      border: 8px solid #D4D4D2;
+      border-radius: 100%;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      -webkit-transform: rotateZ(70deg);
+              transform: rotateZ(70deg);
+      background-color: #fff;
+}
+.toggle-switch-figure:before {
+      content: '';
+      display: block;
+      position: relative;
+      top: -25px;
+      right: -10px;
+      width: 30px;
+      height: 30px;
+      border: 8px solid #D4D4D2;
+      border-radius: 100%;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      -webkit-transform: rotateZ(30deg);
+              transform: rotateZ(30deg);
+      background-color: #fff;
+}
+
+.toggle-switch-figureAlt { /* stars */
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 1px;
+      width: 1px;
+      height: 1px;
+      background-color: #EFEEDA;
+      border-radius: 100%;
+      border: 4px solid #DEE1C5;
+      box-shadow: 35px -7px 0 -3px #FCFCFC, 54px -10px 0 -3px #FCFCFC, 54px 4px 0 -4px #FCFCFC, 63px 7px 0 -2px #FCFCFC, 43px 18px 0 -4px #FCFCFC, 34px 10px 0 -2px #FCFCFC, 58px 20px 0 -3px #FCFCFC;
+      -webkit-transition: all 0.12s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.12s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -webkit-transform: scale(0);
+              transform: scale(0);
+}
+
+.toggle-switch-figureAlt:before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: 10px;
+      width: 2px;
+      height: 2px;
+      background-color: #EFEEDA;
+      border-radius: 100%;
+      border: 4px solid #DEE1C5;
+}
+
+.toggle-switch-figureAlt:after {
+      content: '';
+      position: absolute;
+      top: 13px;
+      left: 9px;
+      width: 2px;
+      height: 2px;  
+      background-color: #EFEEDA;
+      border-radius: 100%;
+      border: 4px solid #DEE1C5;
+}
+
+.toggle-input:checked ~ .toggle-switch {
+      margin-left: 0;
+      border-color: #DEE1C5;
+      background-color: #FFFDF2;
+}
+
+.toggle-input:checked ~ .toggle-bg {
+      background-color: #484848;
+      border-color: #202020;
+}
+
+.toggle-input:checked ~ .toggle-switch .toggle-switch-figure {
+      margin-left: 40px;
+      opacity: 0;
+      -webkit-transform: scale(0.1);
+              transform: scale(0.1);
+}
+
+.toggle-input:checked ~ .toggle-switch .toggle-switch-figureAlt {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+}
+
+
+
+
+
+
+
+/* ------ Media Queries ------ */
+@media screen and (max-width: 1000px) {
+
+    
+    
+    .daytonight {
+    margin-bottom: -20px;
+    }
+ 
+}
+
+
