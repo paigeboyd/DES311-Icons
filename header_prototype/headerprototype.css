@@ -1,0 +1,58 @@
+body {
+    margin: 0 auto; /* this just resets things so everything is at edge of browser */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #3F3643;
+    color: #F2E6C6; /*matches the wanderlust brand color */
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/* ------ Header Section ------ */
+
+.heroimg {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.intro {
+    position: absolute;
+    text-align: center;
+    font-size: 2.2vw; /* responsive text - means 2.2% of viewport width*/
+    margin-top: 31%; /* this controls the position of the text - responsive! */
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+.downarrows {
+    max-width: 3%;
+    width: 100%; /* makes them scale with the browser size */
+    position: absolute;
+    margin-top: 40%; /* this controls the position of the arrows - responsive! */
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    
+}
+
+/* FOR SVG Arrows --- decided not to use --- 
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-top: 37%;
+}
+
+.arrows path {
+	stroke: #F2E6C6;
+	fill: transparent;
+	stroke-width: 1.5px;	
+}
+
+*/
+
+
